@@ -1,7 +1,4 @@
 import type { Task, TaskStatus  } from "../../types";
-// import type TaskStatus from "./TaskList"
-
-
 
 interface Props {
   task: Task;

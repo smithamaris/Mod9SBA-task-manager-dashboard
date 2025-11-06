@@ -20,8 +20,6 @@ function Dashboard({ tasks: initialTasks, onStatusChange }: DashboardProps) {
     search: "",
   });
 
-  // const [localTasks, setLocalTasks] = useState<Task[]>(tasks);
-
 
   // add a new task
   const addTask = (data: TaskFormData) => {
